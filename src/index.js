@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://informativeworld-furqan-khans-projects.vercel.app/' // Replace with your actual frontend URL
+    'https://furqankhattak.vercel.app/'
   ],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true
